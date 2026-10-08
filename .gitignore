@@ -8,7 +8,8 @@
 *.user
 *.userosscache
 *.sln.docstates
-
+*/.DS_Store
+.DS_Store
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -26,9 +27,9 @@ bld/
 
 # Visual Studio 2015 cache/options directory
 .vs/
-# Uncomment if you have tasks that create the project's static files in wwwroot
-wwwroot/scripts
-wwwroot/content
+# Uncomment if you have tasks that create the project's static files in dist
+dist/scripts
+dist/content
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -287,13 +288,9 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
-/CC98.Forum/CC98.Forum/wwwroot/static/scripts
-/CC98.Forum/CC98.Forum/wwwroot/static/content
-/CC98.Forum/CC98.Forum/wwwroot/static/index.html
-/CC98.Forum/CC98.Forum/.vscode/
-/CC98.Forum/CC98.Forum/webpack.config.release.js.map
-/CC98.Forum/CC98.Forum/webpack.config.debug.js.map
-.vscode/*
 
-/CC98.Forum/CC98.Forum/vscodeConfig/wwwroot
-yarn.lock
+dist/static/scripts
+dist/static/content
+dist/static/index.html
+dist/static/reset.html
+dist/static/config.production.json
